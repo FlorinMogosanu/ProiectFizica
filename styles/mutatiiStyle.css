@@ -1,0 +1,167 @@
+.dflex {
+  display: flex;
+  align-items: center;
+}
+
+/* nav style */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 3rem;
+  font-size: 1.5rem;
+}
+
+.echipa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.echipa img {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-right: 0.5rem;
+}
+
+.pages {
+  display: flex;
+  align-items: center;
+  padding: 7px 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.pages p + p {
+  margin-left: 1rem;
+}
+
+.date {
+  margin-left: 2rem;
+  color: white;
+  background-color: black;
+  padding: 7px 20px;
+  border-radius: 20px;
+}
+
+/* section pt title */
+
+.title {
+  background-color: #ABBBDD;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-container{
+  width: 45%;
+  padding: 5rem 0 10rem 0;
+}
+
+.title-container h1 {
+  font-size: 2.5rem;
+  line-height: 1.3;
+}
+
+.title-container h2 {
+  font-size: 2rem;
+  line-height: 1.3;
+  margin-bottom: 1.5rem;
+  color: #DD183C;
+}
+
+.white-right-angle{
+  width: 45%;
+  height: 5rem;
+  background-color: #f1f0f0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.left{
+  position: absolute;
+  top: 2rem;
+  left: 5rem;
+}
+
+.left h3{
+  font-size: 1.3rem;
+  position: relative;
+}
+
+.left ul{
+  margin-top: 2rem;
+}
+
+.left ul li + li{
+  margin-top: 1rem;
+}
+
+article{
+  width: 45%;
+}
+
+article * {
+  margin: 0 3rem;
+}
+
+article * + *{
+  margin-bottom: 2rem;
+}
+
+article h2{
+  font-size: 2rem;
+  color: #DD183C;
+  margin-bottom: 2rem;
+}
+
+article p{
+  line-height: 1.5;
+}
+
+article img{
+  width: calc(100% - 5rem);
+}
+
+article .dflex p{
+  margin: 0;
+}
+
+article .dflex img{
+  margin: 0;
+  width: 50%;
+}
+
+.animale-container img{
+  margin-left: 1rem;
+}
+
+.plante-container {
+  text-align: right;
+}
+
+.plante-container img{
+  margin-right: 1rem;
+}
+
+.final{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+}
+
+.final a{
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: 1px solid black
+}
