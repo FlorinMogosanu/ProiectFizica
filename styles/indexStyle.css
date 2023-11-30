@@ -104,7 +104,7 @@ h1 span {
 
 /* section pentru Misiunea Noastra */
 .misiunea {
-  margin: 5rem 10rem;
+  margin: 5rem 3rem;
 }
 h2 {
   font-size: 3rem;
@@ -122,8 +122,8 @@ h2 {
 .misiune-img {
   margin-right: 5rem;
 }
-.misiune-img img{
-  width: 40rem;
+.misiune-img img {
+  width: 50rem;
 }
 
 .left-p {
@@ -153,28 +153,6 @@ h2 {
   margin: 5rem 3rem;
 }
 
-.card {
-  width: 70%;
-  border-radius: 20px;
-  padding: 1rem;
-}
-
-.card + .card {
-  margin-top: 3rem;
-}
-
-.card-one{
-  background-color: #ffffff;
-}
-
-.card-two{
-  background-color: #DD183C;
-}
-
-.card-three{
-  background-color: #ABBBDD;
-}
-
 .number {
   color: #848484;
   font-size: 2rem;
@@ -189,27 +167,30 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
-.card-img {
-  width: 20rem;
+.card-img{
+  width: 12rem;
 }
 
 .card-info-container {
   margin-top: 3rem;
 }
 
-.card-info{
+.card-info {
   width: 70%;
+  margin-right: 2rem;
+  font-size: 1.2rem;
 }
 
-.card-explore{
+.card-explore {
   padding: 5px 20px;
   border-radius: 20px;
-  border: 1px solid black
+  border: 1px solid black;
 }
 
-.card-explore img{
+.card-explore img {
   margin-left: 0.5rem;
   width: 1rem;
   height: 1rem;
@@ -223,11 +204,13 @@ h2 {
 
 .card-slide-con button {
   height: 100%;
-  padding: 0;
+  padding: 2rem;
   margin: 0;
   border: none;
   font: inherit;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
 }
 
 .card1-con {
@@ -277,10 +260,20 @@ h2 {
 
 .activ {
   width: 60%;
-  transition: width 0.5s ease; /* Add transition property */
+  transition: width 0.5s ease;
+  
 }
-
+.activ button *{
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
 .deactive {
   width: 20%;
   transition: width 0.5s ease;
+  
+}
+
+.deactive button *{
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
 }
