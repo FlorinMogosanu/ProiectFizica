@@ -56,24 +56,26 @@ nav {
 }
 
 .title-container{
-  width: 45%;
+  width: 65%;
   padding: 5rem 0 10rem 0;
 }
 
 .title-container h1 {
   font-size: 2.5rem;
   line-height: 1.3;
+  margin: 0 3rem;
 }
 
 .title-container h2 {
   font-size: 2rem;
   line-height: 1.3;
+  margin-left:3rem;
   margin-bottom: 1.5rem;
   color: #DD183C;
 }
 
 .white-right-angle{
-  width: 45%;
+  width: 65%;
   height: 5rem;
   background-color: #f1f0f0;
 }
@@ -89,7 +91,7 @@ main {
 .left{
   position: absolute;
   top: 2rem;
-  left: 5rem;
+  left: 3.5rem;
 }
 
 .left h3{
@@ -106,11 +108,12 @@ main {
 }
 
 article{
-  width: 45%;
+  width: 65%;
 }
 
 article * {
-  margin: 0 3rem;
+  margin: auto 3rem;
+  width: calc(100% - 6rem)
 }
 
 article * + *{
@@ -128,7 +131,7 @@ article p{
 }
 
 article img{
-  width: calc(100% - 5rem);
+  width: calc(100% - 6rem);
 }
 
 article .dflex p{
@@ -156,12 +159,14 @@ article .dflex img{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+
   margin: 0;
 }
 
 .final a{
   padding: 5px 20px;
   border-radius: 20px;
-  border: 1px solid black
+  border: 1px solid black;
+  width: auto;
+  
 }
