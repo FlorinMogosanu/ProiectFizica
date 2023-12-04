@@ -116,6 +116,25 @@ main::before{
   background-color: #051320;
 }
 
+.left{
+  position: absolute;
+  top: 45rem;
+  left: 3.5rem;
+}
+
+.left h3{
+  font-size: 1.3rem;
+  position: relative;
+}
+
+.left ul{
+  margin-top: 2rem;
+}
+
+.left ul li + li{
+  margin-top: 1rem;
+}
+
 article{
   background: linear-gradient(180deg, rgba(70, 160, 243, 0.84) 0%, rgba(70, 160, 243, 0) 100%);
   width: 65%;
@@ -134,8 +153,8 @@ article * + *{
 article p{
   font-size: 1.2rem;
   line-height: 1.5;
-  
 }
+
 
 .title-1{
   font-size: 2rem;
@@ -181,6 +200,53 @@ p.right{
   justify-self: right;
 }
 
+.jBegonie{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jBegonie *{
+  margin:0;
+}
+
+.text-con{
+  width: 70%;
+  margin-right: 3rem
+}
+
+.text-con h3{
+  width: 100%;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #0D0251;
+}
+
+.text-con p{
+  width: 100%;
+}
+
+.img-con{
+  width: 30%
+}
+
+.img-con img{
+  width: 100%;
+}
+
+.radioterapie *{
+  margin: 0;
+  width: 100%;
+}
+
+.radioterapie h3{
+  margin-bottom: 2rem;
+  width: 70%;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #0D0251;
+}
 
 .final{
   display: flex;
