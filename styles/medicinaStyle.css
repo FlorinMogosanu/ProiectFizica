@@ -1,0 +1,287 @@
+.dflex {
+  display: flex;
+  align-items: center;
+}
+
+/* nav style */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 3rem;
+  font-size: 1.5rem;
+}
+
+.echipa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.echipa img {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-right: 0.5rem;
+}
+
+.pages {
+  display: flex;
+  align-items: center;
+  padding: 7px 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.pages p + p {
+  margin-left: 1rem;
+}
+
+.date {
+  margin-left: 2rem;
+  color: white;
+  background-color: black;
+  padding: 7px 20px;
+  border-radius: 20px;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.dark-purple-rectangle{
+  width: 100%;
+  height: 1rem;
+  background-color: #120520;
+}
+
+main::after{
+  content: "";
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  width: 100%;
+  height: 40rem;
+  background-color: #57436B;
+  z-index: -1;
+}
+
+main::before{
+  content: "";
+  position: absolute;
+  top: 41rem;
+  left: 0;
+  width: 100%;
+  height: 1rem;
+  background-color:#120520;
+  z-index: -1;
+}
+
+.vertical-rectangle1{
+position: absolute;
+top: 1rem;
+left: 23rem;
+width: 2rem;
+height: 34rem;
+background-color: #F1F0F0;
+opacity: 0.7;
+z-index: 1;
+}
+
+.vertical-rectangle2{
+position: absolute;
+top: 1rem;
+left: 26rem;
+width: 1.5rem;
+height: 34rem;
+background-color: #F1F0F0;
+opacity: 0.7;
+z-index: 1;
+}
+
+
+.left{
+  position: absolute;
+  top: 45rem;
+  left: 3.5rem;
+}
+
+.left h3{
+  font-size: 1.3rem;
+  position: relative;
+}
+
+.left ul{
+  margin-top: 2rem;
+}
+
+.left ul li + li{
+  margin-top: 1rem;
+}
+
+article{
+  background: linear-gradient(180deg, #CDB5E4 4.47%, rgba(130, 116, 143, 0) 100%);
+  width: 65%;
+  position: relative;
+}
+
+article * {
+  margin: auto 4rem;
+  width: calc(100% - 8rem);
+}
+
+article * + *{
+  margin-bottom: 2rem;
+}
+
+article p{
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.title-1{
+  font-size: 2rem;
+  line-height: 1.3;
+  margin-bottom: 1.5rem;
+  margin-top: 10rem;
+  color: #FEFFCB;
+  position: relative;
+  z-index: 2;
+}
+
+.title-2{
+  font-size: 2.5rem;
+  line-height: 1.3;
+  color: #473757;
+  margin-bottom: 10rem;
+  position: relative;
+  z-index: 2;
+}
+/* .dark-purple-rectangle2{
+  height: 0.7rem;
+  width: calc(50% - 3rem);
+  background-color: #120520;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 2;
+} */
+
+.legatura *{
+  margin: 0;
+}
+
+.legatura p{
+  margin-right: 3rem;
+  width: 65%;
+  font-size: 1.2rem;
+  padding-top: 1rem;
+  border-top: #120520 10px solid;
+  position: relative;
+  z-index: 2;
+}
+
+.legatura img{
+  width: 45%;
+}
+
+.tipuri {
+  margin-bottom: 5rem;
+  margin-top: 4rem;
+}
+
+.tipuri *{
+  margin: 0;
+  width: auto;
+}
+
+.tipuri .title{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.tipuri .title h3{
+  font-size: 2rem;
+  color: #473757;
+}
+
+.tipuri .title img{
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 1rem;
+}
+
+.tipuri ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: disc;
+  font-size: 1.2rem;
+}
+
+.tipuri .middle{
+  width: 80%;
+  margin: 1.5rem auto;
+}
+
+.cancer{
+  width: 70%;
+  margin: 1rem auto;
+}
+
+.boala{
+  font-size: 1.5rem;
+  color: #473757;
+}
+
+.boala-con *{
+  margin: 0;
+}
+
+.boala-con p{
+  text-align: right;
+  width: 55%;
+  margin-left: 2rem;
+}
+
+.boala-con img{
+  width: 45%;
+}
+
+.simptome{
+  display: flex;
+  justify-content: space-between;
+}
+
+.simptome *{
+  margin: 0;
+  width: auto !important;
+}
+
+.simptome div ul{
+  list-style: disc;
+  font-size: 1.2rem;
+}
+
+.simptome div ul li{
+  margin-top:1rem;
+}
+
+.final{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.final a{
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+  width: auto;
+}
