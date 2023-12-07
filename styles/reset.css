@@ -83,7 +83,7 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font-family: "Happy Monkey", sans-serif;
+  font-family: "Montserrat", sans-serif;
   vertical-align: baseline;
 }
 
@@ -151,4 +151,8 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-thumb:hover {
   background-color: #555;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Inconsolata", sans-serif;
 }

@@ -1,0 +1,169 @@
+.dflex {
+  display: flex;
+  align-items: center;
+}
+
+/* nav style */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 3rem;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+
+.echipa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: #000000;
+}
+.echipa img {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-right: 0.5rem;
+}
+
+.pages {
+  display: flex;
+  align-items: center;
+  padding: 7px 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: #000000;
+}
+
+.pages p + p {
+  margin-left: 1rem;
+}
+
+.date {
+  margin-left: 2rem;
+  color: black;
+  padding: 7px 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+main::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 33rem;
+  background-color:#FAE2F2;
+  z-index: -1;
+}
+
+.ACE{
+  position: absolute;
+  width: 17rem;
+  top:3.5rem;
+  left: 20rem;
+  z-index:1;
+  transform: rotate(330deg);
+  opacity: 0.6;
+}
+
+article{
+  position: relative;
+  width: 65%;
+  background-color: white;
+  padding-bottom: 2rem;
+}
+
+article > * {
+  margin: auto 4rem;
+  width: calc(100% - 8rem);
+}
+
+article * + *{
+  margin-bottom: 2rem;
+}
+
+article p{
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.title-con{
+  background-color: #FAE2F2;
+  width: 100%;
+  margin:0;
+  padding: 12rem 0;
+
+}
+
+.title-1{
+  font-size: 2.5rem;
+  margin: auto 8rem;
+  width: calc(100% - 16rem);
+  position: relative;
+  z-index: 2;
+}
+
+
+.date-title{
+  margin-top: 5rem;
+  font-size: 1.75rem;
+  color: #E99999;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards *{
+  width: 100%;
+}
+
+.card{
+  width: 25%;
+}
+
+.card img{
+  border-radius: 20px;
+}
+
+.card p{
+  text-align: center;
+  color: #E99999;
+  margin: 0;
+}
+
+.card .role{
+  margin-top: 1rem;
+}
+
+.card .name{
+  margin-top: 0.2rem;
+}
+
+.bibliografie{
+  font-size: 1.5rem;
+  color: #E99999;
+}
+
+article a{
+  margin: auto 4rem;
+  width: calc(100% - 8rem);
+  display: block;
+}
+
+article a + a{
+  margin-top: 1rem;
+}

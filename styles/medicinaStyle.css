@@ -104,6 +104,32 @@ opacity: 0.7;
 z-index: 1;
 }
 
+.radiation1{
+position: absolute;
+width: 3rem;
+top: 13rem;
+right: 26rem;
+opacity: 0.6;
+z-index: 2;
+}
+
+.radiation2{
+position: absolute;
+width: 5rem;
+top: 9rem;
+right: 30rem;
+opacity: 0.7;
+z-index: 2;
+}
+
+.radiation3{
+position: absolute;
+width: 10rem;
+top: 2rem;
+right: 20rem;
+opacity: 0.9;
+z-index: 2;
+}
 
 .left{
   position: absolute;
